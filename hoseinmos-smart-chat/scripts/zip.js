@@ -1,0 +1,1 @@
+const fs = require("fs"); const archiver = require("archiver"); const output = fs.createWriteStream("hoseinmos-smart-chat.zip"); const archive = archiver("zip"); archive.pipe(output); archive.directory(".", false); archive.finalize();

@@ -1,0 +1,1 @@
+#!/bin/bash echo "Building Smart Chat plugin..." echo "Copying source files to assets..." cp src-frontend/main.js assets/js/widget.js cp src-frontend/style.css assets/css/widget.css echo "Build complete!"

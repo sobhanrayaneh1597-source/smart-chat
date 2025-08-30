@@ -1,0 +1,1 @@
+msgid "" msgstr "" "Project-Id-Version: Smart Chat 1.0.0\n" "Language: fa_IR\n" msgid "Smart Chat" msgstr "چت هوشمند" msgid "Settings" msgstr "تنظیمات"

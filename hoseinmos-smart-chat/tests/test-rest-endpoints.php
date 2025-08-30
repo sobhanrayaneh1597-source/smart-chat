@@ -1,0 +1,1 @@
+<?php class Test_REST_Endpoints extends WP_UnitTestCase { public function test_ask_endpoint() { $request = new WP_REST_Request("POST", "/hmsc/v1/ask"); $request->set_param("message", "test"); $response = rest_do_request($request); $this->assertEquals(200, $response->get_status()); } }
