@@ -1,0 +1,1 @@
+<?php namespace SmartChat\Providers; class Provider_Bing implements Provider_Interface { public function search($query, $options = array()) { // TODO: Implement Bing Search API return array(); } public function answer($query, $options = array()) { // TODO: Implement Bing Search API return ""; } }

@@ -1,0 +1,1 @@
+<?php namespace SmartChat; class Loader { public function __construct() { $this->init_hooks(); } private function init_hooks() { if (hmsc_get_option("enable", true)) { add_action("wp_enqueue_scripts", array($this, "enqueue_scripts")); add_action("wp_footer", array($this, "render_widget")); } if (is_admin()) { new Admin(); } new REST(); new Rate_Limit(); } }

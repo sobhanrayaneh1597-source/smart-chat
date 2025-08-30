@@ -1,0 +1,1 @@
+<?php class Test_Settings extends WP_UnitTestCase { public function test_sanitize_options() { $input = array("enable" => "1", "position" => "bottom-right", "welcome_text" => "Test"); $sanitized = hmsc_sanitize_options($input); $this->assertTrue($sanitized["enable"]); $this->assertEquals("bottom-right", $sanitized["position"]); } }

@@ -1,0 +1,1 @@
+{"name":"hoseinmos-smart-chat","version":"1.0.0","description":"A smart chat widget for WordPress","main":"hoseinmos-smart-chat.php","scripts":{"dev":"vite","build":"vite build","zip":"npm run build && node scripts/zip.js"},"devDependencies":{"vite":"^4.4.0","archiver":"^5.3.1"},"keywords":["wordpress","plugin","chat","widget"],"author":"hoseinmos","license":"GPL-2.0-or-later"}
